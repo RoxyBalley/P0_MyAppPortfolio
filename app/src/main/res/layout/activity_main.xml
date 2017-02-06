@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E3D49">
+
+    <LinearLayout style="@style/home_button_container">
+
+        <TextView
+            android:id="@+id/home_content_title"
+            style="@style/home_content_title" />
+
+        <Button
+            android:id="@+id/home_popular_movies_button"
+            style="@style/home_button_default"
+            android:text="@string/home_popular_movies_button" />
+
+        <Button
+            android:id="@+id/home_stock_hawk_button"
+            style="@style/home_button_default"
+            android:text="@string/home_stock_hawk_button" />
+
+        <Button
+            android:id="@+id/home_build_it_bigger_button"
+            style="@style/home_button_default"
+            android:text="@string/home_build_it_bigger_button" />
+
+        <Button
+            android:id="@+id/home_make_your_app_material_button"
+            style="@style/home_button_default"
+            android:text="@string/home_make_your_app_material_button" />
+
+        <Button
+            android:id="@+id/home_go_ubiquitous_button"
+            style="@style/home_button_default"
+            android:text="@string/home_go_ubiquitous_button" />
+
+        <Button
+            android:id="@+id/home_capstone_button"
+            style="@style/home_button_important"
+            android:text="@string/home_capstone_button" />
+
+    </LinearLayout>
+</FrameLayout>
